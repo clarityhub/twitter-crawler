@@ -1,0 +1,32 @@
+{
+  "name": "walmart-crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && DEBUG=true node ./dist/index",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@types/bull": "^3.12.2",
+    "@types/node": "^13.13.4",
+    "@types/request": "^2.48.4",
+    "@types/request-promise": "^4.1.46",
+    "aws-sdk": "^2.667.0",
+    "bull": "^3.13.0",
+    "bull-board": "^0.7.0",
+    "dotenv": "^8.2.0",
+    "dynamoose": "^2.1.0",
+    "express": "^4.17.1",
+    "node-vibrant": "^3.1.5",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5",
+    "stats-lite": "^2.2.0",
+    "tslint": "^6.1.2",
+    "twitter-lite": "^0.11.0",
+    "typescript": "^3.8.3"
+  }
+}
